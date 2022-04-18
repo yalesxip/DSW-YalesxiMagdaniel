@@ -1,0 +1,27 @@
+header{
+    background-color:brown;
+    padding: 20px;
+}
+nav{
+background-color: antiquewhite;
+}
+section{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+}
+article{
+    background-color: antiquewhite;
+    grid-column:1/4 ;
+}
+aside{
+    background-color:burlywood;
+    padding: 30px;
+    grid-column:4/5 ;
+    
+}
+footer{
+    background-color: bisque;
+    color: black;
+    padding: 40px;
+}
